@@ -1,0 +1,13 @@
+:host {
+	display: flex;
+	margin-bottom: 32px;
+	width: 100%;
+}
+
+.left {
+	flex: 1;
+}
+
+.actions {
+	justify-self: end;
+}

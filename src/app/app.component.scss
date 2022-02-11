@@ -1,0 +1,20 @@
+$margin: 32px;
+
+:host {
+	display: block;
+	padding: $margin;
+	max-width: 400px;
+}
+
+mat-progress-bar {
+	margin-bottom: $margin;
+}
+
+mat-form-field {
+	width: 100%;
+}
+
+.actions {
+	display: flex;
+	justify-content: end;
+}
